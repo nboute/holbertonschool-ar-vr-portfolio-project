@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2993043851972194214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3796756319306379476}
+  - component: {fileID: 8970708459711618790}
+  m_Layer: 0
+  m_Name: WaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3796756319306379476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2993043851972194214}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.114792, y: -1.5695953, z: -10.494877}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8970708459711618790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2993043851972194214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244b9fc34530b5f40a84386e3802dd2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveNumber: 1
+  zombieNumber: 0
+  zombiesPrefab:
+  - {fileID: 3348246596661870854, guid: d0155bedc29daea459e376fc9fd4f3d2, type: 3}
+  - {fileID: 8358275187619431381, guid: b5c18c0d760ede940aeb807ba1ae4c9b, type: 3}
+  - {fileID: 5626614636633987825, guid: 6544fa98ffd54dd4a8b6a8ec482d61c4, type: 3}
+  - {fileID: 638381708544113655, guid: 676daf0cc017d2e4b9d4389a8e7340d9, type: 3}
+  - {fileID: 534057348007164982, guid: c88165195d6b86a4a81ce51a0b69ba68, type: 3}
+  - {fileID: 6563505358625877173, guid: 04b47c11bf1cd4b4c978d55a05fdf112, type: 3}
+  - {fileID: 491900364330574472, guid: b35ff4ca64eb11a4b98b19eb64135a0c, type: 3}
+  - {fileID: 2459518875943524007, guid: faeceef7b05732c4bbc918bc23a3de78, type: 3}
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
